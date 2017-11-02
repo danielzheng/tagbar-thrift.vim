@@ -1,7 +1,7 @@
-if version < 701 || exists('g:tagbar_proto_loaded')
+if version < 701 || exists('g:tagbar_thrift_loaded')
     finish
 endif
-let g:tagbar_proto_loaded = 1
+let g:tagbar_thrift_loaded = 1
 
 
 let cwd = expand('<sfile>:p:h:h')
@@ -12,7 +12,7 @@ else
     let cnf = fnamemodify(cwd."/ctags/thrift.cnf", ':p')
 endif
 
-let g:tagbar_type_proto = {
+let g:tagbar_type_thrift = {
             \ 'ctagstype': 'thrift',
             \ 'kinds': [
             \ 'e:enum:0:1',
