@@ -19,7 +19,6 @@ let g:tagbar_type_thrift = {
             \ 's:service:0:1',
             \ 'e:enum:0:1',
             \ 'v:struct:0:1',
-            \ 'v:service:0:1',
             \ 'f:function:0:1',
             \ ],
             \ 'sro': '.',
