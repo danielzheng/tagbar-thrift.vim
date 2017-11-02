@@ -15,10 +15,15 @@ endif
 let g:tagbar_type_thrift = {
             \ 'ctagstype': 'thrift',
             \ 'kinds': [
-            \ 'e:enum:0:1',
-            \ 'c:struct:0:1',
             \ 'u:union:0:1',
             \ 's:service:0:1',
+            \ 'x:exception:0:1',
+            \ 'e:enum:0:1',
+            \ 's:struct:0:1',
+            \ 'v:service:0:1',
+            \ 'm:member:0:1',
+            \ 'f:function:0:1',
+            \ 'a:value:0:1',
             \ ],
             \ 'sro': '.',
             \ 'deffile': cnf,
