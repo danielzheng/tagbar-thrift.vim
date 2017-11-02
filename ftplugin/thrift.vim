@@ -16,9 +16,9 @@ let g:tagbar_type_thrift = {
             \ 'ctagstype': 'thrift',
             \ 'kinds': [
             \ 'u:union:0:1',
-            \ 's:service:0:1',
+            \ 'v:service:0:1',
             \ 'e:enum:0:1',
-            \ 'v:struct:0:1',
+            \ 's:struct:0:1',
             \ 'f:function:0:1',
             \ ],
             \ 'sro': '.',
